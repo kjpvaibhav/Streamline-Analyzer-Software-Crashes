@@ -4,9 +4,9 @@ import re
 import shutil
 
 # Define paths and folders
-windbg_path = r"C:\Program Files (x86)\Windows Kits\10\Debuggers\x64\windbg.exe"
-dump_folder = r"C:\Users\Vaibh\Documents\Visual Studio 2019\Studio\CrashDumps"
-output_path = r"C:\Users\Vaibh\Documents\Visual Studio 2019\Studio\Report"
+windbg_path = r"<Your Path>Windows Kits\10\Debuggers\x64\windbg.exe"
+dump_folder = r"<Your Path>\CrashDumps"
+output_path = r"<Your Path>\Report"
 analysis_file = r"analysis.txt"
 error_names = ['StackOverflow', 'PointerRelated', 'UseAfterFree', 'BufferOverflow']
 
